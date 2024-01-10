@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-tag-list',
@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './tag-list.component.css'
 })
 export class TagListComponent {
-
+  
+  @HostBinding('class') class='tag-list';
 }
