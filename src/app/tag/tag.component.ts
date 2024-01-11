@@ -8,6 +8,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './tag.component.css',
 })
 export class TagComponent {
-  @Input({ required: true })
+  @Input({ required: true }) 
   name!: string;
 }
