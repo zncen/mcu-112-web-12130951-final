@@ -10,6 +10,7 @@ import { TagListComponent } from '../tag-list/tag-list.component';
 })
 export class TagSidebarComponent {
   @HostBinding('class') class='tag-sidebar'
+  
   tag=['enim','repellat','est','eos'];
 
 }
