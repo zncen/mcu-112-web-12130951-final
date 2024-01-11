@@ -15,4 +15,6 @@ export class ArticlePreviewComponent {
   @HostBinding('class') class = 'article-preview'
 
   tag=['enim','repellat','est','eos'];
+  
+  
 }
