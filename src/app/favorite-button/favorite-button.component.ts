@@ -10,5 +10,6 @@ import { Component,Input,numberAttribute } from '@angular/core';
 export class FavoriteButtonComponent {
 
   @Input({transform:numberAttribute})
+  
   count!:number;
 }
