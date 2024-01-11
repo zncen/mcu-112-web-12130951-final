@@ -10,7 +10,7 @@
     padding-right: 15px;
     display: flex;
     width: 1140px;
-    border-radius: 0;
+
   }
   .container > div {
     outline: solid 1px red;
