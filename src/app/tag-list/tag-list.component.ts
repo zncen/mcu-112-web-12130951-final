@@ -12,7 +12,5 @@ import { NgFor } from '@angular/common';
 export class TagListComponent {
   @HostBinding('class') class = 'tag-list';
 
-  tag=[
-    'enim','repellat','est','eos'
-  ];
+  tag=['enim','repellat','est','eos'];
 }

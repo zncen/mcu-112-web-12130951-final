@@ -10,6 +10,8 @@ import { TagComponent } from '../tag/tag.component';
   styleUrl: './article-preview.component.css',
 })
 export class ArticlePreviewComponent {
-  @HostBinding('class') class = 'article-preview';
-  tags = ['enim', 'repellat', 'est', 'eos'];
+  
+  @HostBinding('class') class = 'article-preview'
+
+  tag=['enim','repellat','est','eos'];
 }
